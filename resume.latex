@@ -6,7 +6,7 @@
 \usepackage{marvosym}
 \usepackage{hyperref}
 \usepackage{enumitem}
-\usepackage[frenchlinks]{cleveref}
+\usepackage{cleveref}
 \usepackage{mathptmx} % Times New Roman Font
 \usepackage{fancyhdr}
 \usepackage{xcolor}
