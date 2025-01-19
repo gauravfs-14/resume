@@ -23,7 +23,7 @@ This repository contains my resume written in LaTeX. The resume is **automatical
      ```
      https://gauravfs-14.github.io/resume/resume/resume.pdf
      ```
-   - Preview the resume at:
+   - Preview the resume in web at:
      ```
      https://gauravfs-14.github.io/resume
      ```
