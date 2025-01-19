@@ -20,7 +20,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y texlive-latex-base texlive-latex-extra texlive-fonts-recommended texlive-latex-recommended texlive-xetex
 
       - name: Ensure Resume Folder Exists
-        run: mkdir -p resume  # Make sure the resume/ folder exists
+        run: mkdir -p resume # Make sure the resume/ folder exists
 
       - name: Backup Previous Version
         run: |
@@ -32,7 +32,7 @@ jobs:
         run: pdflatex resume.latex
 
       - name: Move PDF to Resume Folder
-        run: mv resume.pdf resume/resume.pdf  # Store inside the resume/ folder
+        run: mv resume.pdf resume/resume.pdf # Store inside the resume/ folder
 
       - name: Upload PDF as Artifact
         uses: actions/upload-artifact@v3
