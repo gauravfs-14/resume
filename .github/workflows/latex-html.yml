@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Install LaTeX
-        run: sudo apt-get update && sudo apt-get install -y texlive-latex-base texlive-latex-extra texlive-fonts-recommended texlive-latex-recommended texlive-xetex
+        run: sudo apt-get update && sudo apt-get install -y texlive-fonts-extra texlive-latex-base texlive-latex-extra texlive-fonts-recommended texlive-latex-recommended texlive-xetex
 
       - name: Ensure Resume Folder Exists
         run: mkdir -p resume # Make sure the resume/ folder exists
