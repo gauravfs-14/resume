@@ -1,0 +1,49 @@
+name: Build LaTeX Resume
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Install LaTeX
+        run: sudo apt-get update && sudo apt-get install -y texlive-latex-base texlive-latex-extra texlive-fonts-recommended texlive-latex-recommended texlive-xetex
+
+      - name: Ensure Resume Folder Exists
+        run: mkdir -p resume  # Make sure the resume/ folder exists
+
+      - name: Backup Previous Version
+        run: |
+          if [ -f resume/resume.pdf ]; then
+            cp resume/resume.pdf "resume/resume-$(date +'%Y-%m-%d-%H-%M-%S').pdf"
+          fi
+
+      - name: Compile LaTeX to PDF
+        run: pdflatex resume.latex
+
+      - name: Move PDF to Resume Folder
+        run: mv resume.pdf resume/resume.pdf  # Store inside the resume/ folder
+
+      - name: Upload PDF as Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: compiled-resume
+          path: resume/resume.pdf
+
+      - name: Commit and Push PDF
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add resume/resume.pdf resume/resume-*.pdf
+          git commit -m "Auto-generated resume.pdf and backup" || echo "No changes to commit"
+          git push origin main
