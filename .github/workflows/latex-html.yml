@@ -41,15 +41,12 @@ jobs:
           path: resume/resume.pdf
 
       - name: Commit and Push PDF
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-          # Only add existing files to avoid errors
-          if ls resume/resume-*.pdf 1> /dev/null 2>&1; then
-            git add resume/resume-*.pdf
-          fi
-
-          git add resume/resume.pdf
-          git commit -m "Auto-generated resume.pdf and backup" || echo "No changes to commit"
-          git push origin main
+          env:
+            GH_PAT: ${{ secrets.GH_PAT }}
+          run: |
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            git add resume/resume.pdf resume/resume-*.pdf
+            git commit -m "Auto-generated resume.pdf and backup" || echo "No changes to commit"
+            git push https://x-access-token:${GH_PAT}@github.com/gauravfs-14/resume.git main
+        
