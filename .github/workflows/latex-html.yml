@@ -44,6 +44,12 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add resume/resume.pdf resume/resume-*.pdf
+
+          # Only add existing files to avoid errors
+          if ls resume/resume-*.pdf 1> /dev/null 2>&1; then
+            git add resume/resume-*.pdf
+          fi
+
+          git add resume/resume.pdf
           git commit -m "Auto-generated resume.pdf and backup" || echo "No changes to commit"
           git push origin main
