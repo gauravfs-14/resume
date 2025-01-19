@@ -88,7 +88,7 @@
     \resumeProjectHeading{\href{https://ait-lab.vercel.app}{AIT Lab Website}}{}
     \resumeItemListStart
         \resumeItem{Built an \textbf{academic research website} for Texas State University using Next.js with modern web development practices.}
-        \resumeItem{Achieved a \textbf{95+ Lighthouse score} by optimizing SEO, accessibility, and performance.}
+        \resumeItem{Achieved a \textbf{90+ Lighthouse SEO score} by optimizing SEO, accessibility, and performance.}
     \resumeItemListEnd
 
     \resumeProjectHeading{\href{https://photos.app.goo.gl/wxw7pM8xo3CacDHM9}{Custom Raspberry Pi Computer}}{}
