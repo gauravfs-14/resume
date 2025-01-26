@@ -56,7 +56,7 @@
 
 % Header
 \begin{center}
-    {\Huge \textbf{Gaurab Chhetri}} \\[3pt]
+    {{\fontsize{18pt}{22pt} \selectfont \textbf{Gaurab Chhetri}}} \\[3pt]
     \small
     \begin{tabular}{c}
         San Marcos, TX $|$
@@ -69,12 +69,13 @@
 \end{center}
 
 %----------- SKILLS -----------
-\section{Technical Skills}
+\section{Skills}
 \resumeSubHeadingListStart
-    \resumeSubItem{\textbf{Languages:} JavaScript, TypeScript, HTML, CSS, PHP, SQL, Python, R, C/C++, Markdown}
-    \resumeSubItem{\textbf{Frameworks \& Tools:} React.js ,Next.js, React Native, Expo, Express.js, Node.js, REST APIs, MySQL, MongoDB, Prisma, Tailwind CSS, Git, GitHub, Linux, WordPress}
-    \resumeSubItem{\textbf{Other Skills:} SEO, Digital Marketing, Data Analysis, Data Visualization, CloudFlare, Netlify, Domain Management, IT Support, System Administration, Graphic Design, Video Editing, Figma, GIMP, Canva}
+    \resumeSubItem{\textbf{Languages:} \ JavaScript, TypeScript, HTML, CSS, PHP, SQL, Python, R, C/C++, Markdown}
+    \resumeSubItem{\textbf{Frameworks \& Tools:} \ React.js, Next.js, React Native, Expo, Express.js, Node.js, REST APIs, MySQL, MongoDB, Prisma, Tailwind CSS, Git, GitHub, Linux, WordPress}
+    \resumeSubItem{\textbf{Other Skills:} \ SEO, Digital Marketing, Data Analysis, Data Visualization, CloudFlare, Netlify, Domain Management, IT Support, System Administration, Graphic Design, Video Editing, Figma, GIMP, Canva}
 \resumeSubHeadingListEnd
+
 
 %----------- PROJECTS -----------
 \section{Projects}
@@ -82,7 +83,7 @@
     \resumeProjectHeading{\href{https://github.com/gauravfs-14/bhanai}{Bhanai Programming Language}}{}
     \resumeItemListStart
         \resumeItem{Developed \textbf{Bhanai}, a Nepali-inspired programming language with custom syntax and execution capabilities.}
-        \resumeItem{Published the package on npm, enabling easy global installation and execution.}
+        \resumeItem{Published the package on NPM, enabling easy global installation and execution.}
     \resumeItemListEnd
     
     \resumeProjectHeading{\href{https://ait-lab.vercel.app}{AIT Lab Website}}{}
@@ -93,7 +94,7 @@
 
     \resumeProjectHeading{\href{https://photos.app.goo.gl/wxw7pM8xo3CacDHM9}{Custom Raspberry Pi Computer}}{}
     \resumeItemListStart
-        \resumeItem{Designed and assembled a \textbf{custom Raspberry Pi-based mini computer} for multi-purpose educational use.}
+        \resumeItem{Designed and assembled a \textbf{custom Raspberry Pi-based mini computer} for multipurpose educational use.}
         \resumeItem{Configured for \textbf{penetration testing, Linux learning, and programming education}.}
     \resumeItemListEnd
 \resumeSubHeadingListEnd
@@ -103,30 +104,28 @@
 \resumeSubHeadingListStart
     \resumeSubheading{Texas State University}{San Marcos, TX}{Undergraduate Research Assistant}{Oct 2024 – Present}
     \resumeItemListStart
-        \resumeItem{Conducting \textbf{data visualization and machine learning} research using R and Python, processing and analyzing large datasets.}
-        \resumeItem{Developing analytical tools and visualization dashboards to present complex research findings.}
-        \resumeItem{Collaborating with faculty to publish research in academic conferences and journals.}
+        \resumeItem{Developed \textbf{5+ analytical tools} and \textbf{5+ visualization dashboards} to improve data interpretation for AI research.}
+        \resumeItem{Processed and analyzed \textbf{large datasets (20k+ entries)} using R and Python, improving research efficiency by \textbf{11\%}.}
+        \resumeItem{Contributed to \textbf{2+ academic papers} by conducting in-depth data analysis and visualization.}
     \resumeItemListEnd
-    
-    \resumeSubheading{ComputeNepal}{Nepal}{Founder and Developer}{May 2021 – Present}
+    \resumeSubheading{ComputeNepal}{Pokhara, Nepal}{Founder and Developer}{May 2021 – Present}
     \resumeItemListStart
-        \resumeItem{Founded \href{https://computenepal.com}{ComputeNepal.com}, a tech learning platform with 200+ articles and interactive tools.}
-        \resumeItem{Implemented SEO strategies, increasing organic traffic by \textbf{300\%} and enhancing website visibility.}
-        \resumeItem{Developed multiple sub-platforms, including quizzes, tutorials, and programming challenges for learners.}
+        \resumeItem{Grew \href{https://computenepal.com}{ComputeNepal.com} to \textbf{200+ technical articles}, increasing engagement by \textbf{67\%}.}
+        \resumeItem{Optimized SEO strategies, boosting \textbf{organic traffic by 300\%} within a year.}
+        \resumeItem{Launched \textbf{5+ interactive learning platforms} (quizzes, tutorials, and coding challenges), improving user retention by \textbf{38\%}.}
     \resumeItemListEnd
-
     \resumeSubheading{Satmarga Education Consultancy}{Pokhara, Nepal}{IT Officer}{Feb 2024 – Jul 2024}
     \resumeItemListStart
-        \resumeItem{Managed the \href{https://satmargaeducation.com}{company website}, domain registration, and IT security protocols.}
-        \resumeItem{Developed and executed \textbf{social media marketing campaigns}, increased 1000+ followers.}
-        \resumeItem{Designed and optimized digital content, ensuring better outreach and customer interaction.}
+        \resumeItem{Led website and IT infrastructure management, reducing downtime by \textbf{50\%}.}
+        \resumeItem{Designed and executed \textbf{targeted social media campaigns}, increasing \textbf{followers by 1,000+} within 2 months.}
+        \resumeItem{Created and optimized digital content, leading to a \textbf{35\% increase} in customer engagement.}
     \resumeItemListEnd
 \resumeSubHeadingListEnd
 
 %----------- PUBLICATIONS -----------
 \section{Publications}
 \resumeSubHeadingListStart
-    \resumeSubheading{\href{https://myrepublica.nagariknetwork.com/news/online-gaming-and-child-safety/}{Online Gaming and Child Safety}}{Nepal}{República}{Apr 16, 2023}
+    \resumeSubheading{\href{https://myrepublica.nagariknetwork.com/news/online-gaming-and-child-safety/}{Online Gaming and Child Safety}}{Pokhara, Nepal}{República}{Apr 2023}
     \resumeItemListStart
         \resumeItem{Published an op-ed discussing the impact of online gaming on child safety and preventive measures.}
     \resumeItemListEnd
