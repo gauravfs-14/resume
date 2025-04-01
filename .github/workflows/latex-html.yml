@@ -35,7 +35,7 @@ jobs:
         run: mv resume.pdf resume/resume.pdf # Store inside the resume/ folder
 
       - name: Upload PDF as Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: compiled-resume
           path: resume/resume.pdf
