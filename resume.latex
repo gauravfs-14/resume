@@ -104,9 +104,9 @@
 \resumeSubHeadingListStart
     \resumeSubheading{Texas State University}{San Marcos, TX}{Undergraduate Research Assistant}{Oct 2024 – Present}
     \resumeItemListStart
-        \resumeItem{Developed \textbf{5+ analytical tools} and \textbf{5+ visualization dashboards} to improve data interpretation for AI research.}
-        \resumeItem{Processed and analyzed \textbf{large datasets (20k+ entries)} using R and Python, improving research efficiency by \textbf{11\%}.}
-        \resumeItem{Contributed to \textbf{2+ academic papers} by conducting in-depth data analysis and visualization.}
+        \resumeItem{Developed \textbf{25+ analytical and visualization tools} to improve data interpretation for AI research.}
+        \resumeItem{Processed and analyzed \textbf{large datasets (150k+ entries)} using JavaScript, R and Python, improving research efficiency by \textbf{11\%}.}
+        \resumeItem{Contributed to \textbf{4+ academic papers} by conducting in-depth data analysis and visualization.}
     \resumeItemListEnd
     \resumeSubheading{ComputeNepal}{Pokhara, Nepal}{Founder and Developer}{May 2021 – Present}
     \resumeItemListStart
