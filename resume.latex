@@ -74,7 +74,7 @@
 \resumeSubHeadingListStart
     \resumeSubItem{\textbf{Languages:} JavaScript, TypeScript, Python, R, C/C++, HTML, CSS, SQL, PHP}
     \resumeSubItem{\textbf{Web/App Development:} React.js, Next.js, React Native, Node.js, Express.js, REST APIs, MongoDB, MySQL, Prisma, Tailwind CSS}
-    \resumeSubItem{\textbf{Tools \& Platforms:} Git, GitHub, Vite, Netlify, Cloudflare, WordPress, Expo, DigitalOcean, Linux}
+    \resumeSubItem{\textbf{Tools \& Platforms:} Git, GitHub, Vite, Netlify, Cloudflare, WordPress, Expo, Linux}
     \resumeSubItem{\textbf{Data \& Visualization:} RStudio, Pandas, GGplot, Leaflet.js, D3.js, Recharts, Chart.js, Data Cleaning, Dashboarding}
     \resumeSubItem{\textbf{Creative \& Other:} Figma, Canva, GIMP, SEO, System Administration, CLI Utilities, Documentation}
 \resumeSubHeadingListEnd
@@ -122,7 +122,7 @@
     \resumeSubheading{Texas State University}{San Marcos, TX}{Undergraduate Research Assistant}{Oct 2024 – Present}
     \resumeItemListStart
         \resumeItem{Developed 25+ analytical and visualization tools to improve data interpretation for AI-driven transportation research.}
-        \resumeItem{Analyzed large datasets (150k+ entries) using JavaScript, R, and Python, improving research efficiency by 11\%.}
+        \resumeItem{Analyzed large datasets (150k+ entries) using JavaScript, R, and Python to draw meaningful insights from the data.}
         \resumeItem{Contributed to 6+ academic papers by conducting in-depth data analysis, figure preparation, visualization, and technical writing.}
     \resumeItemListEnd
 \resumeSubHeadingListEnd
