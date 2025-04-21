@@ -83,34 +83,34 @@
 \section{Projects}
 \resumeSubHeadingListStart
 
-\resumeSubheading{Bhanai Programming Language}{}{\href{https://www.npmjs.com/package/bhanai}{npmjs.com/package/bhanai}}{}
+\resumeSubheading{Bhanai Programming Language (\href{https://www.npmjs.com/package/bhanai}{mpmjs.com/package/bhanai})}{}{Node.js, JavaScript, CLI Tools}{}
 \resumeItemListStart
-    \resumeItem{Developed \textbf{Bhanai}, a Nepali-inspired programming language with custom syntax, lexer, and execution engine using Node.js.}
-    \resumeItem{Published as an open-source NPM package for easy CLI usage and cross-platform support.}
+    \resumeItem{Designed and developed a Nepali-inspired programming language with a custom lexer, parser, and interpreter.}
+    \resumeItem{Published as a globally installable NPM package, enabling CLI-based scripting.}
 \resumeItemListEnd
 
-\resumeSubheading{AIT Lab Website}{}{\href{https://ait-lab.vercel.app}{ait-lab.vercel.app}}{}
+\resumeSubheading{AIT Lab Website (\href{https://ait-lab.vercel.app}{ait-lab.vercel.app})}{}{Next.js, React.js, Tailwind CSS, Vercel}{}
 \resumeItemListStart
-    \resumeItem{Built a modern academic research website for Texas State University's AIT Lab using Next.js and Tailwind CSS.}
-    \resumeItem{Optimized Lighthouse SEO, performance, and accessibility scores (90+).}
+    \resumeItem{Built a performant academic website for the AI in Transportation Lab at Texas State University.}
+    \resumeItem{Achieved 90+ Lighthouse scores in SEO and performance audits.}
 \resumeItemListEnd
 
-\resumeSubheading{ComputeNepal}{}{\href{https://computenepal.com}{computenepal.com}}{}
+\resumeSubheading{ComputeNepal (\href{https://computenepal.com}{computenepal.com})}{}{WordPress, SEO, Google Analytics, HTML/CSS, Hosting Tools}{}
 \resumeItemListStart
-    \resumeItem{Developed a full-fledged educational platform featuring 200+ technical articles, coding tutorials, and learning tools.}
-    \resumeItem{Achieved 300\% growth in organic traffic through SEO and content-driven engagement.}
+    \resumeItem{Founded a technical education platform with 200+ articles and tools, reaching thousands of users.}
+    \resumeItem{Increased monthly traffic by 300\% via technical SEO and engagement strategies.}
 \resumeItemListEnd
 
-\resumeSubheading{Texas Measles Dashboard}{}{\href{https://measles-dashboard.vercel.app}{measles-dashboard.vercel.app}}{}
+\resumeSubheading{Texas Measles Dashboard (\href{https://measles-dashboard.vercel.app}{measles-dashboard.vercel.app})}{}{Next.js, Leaflet.js, JavaScript, TypeScript, Python, CSV Parsing}{}
 \resumeItemListStart
-    \resumeItem{Built an interactive Leaflet-based map dashboard using DSHS data to track measles outbreaks across Texas counties.}
-    \resumeItem{Implemented real-time filtering, geospatial analysis, and responsive UI for public health insights.}
+    \resumeItem{Built an interactive dashboard to visualize measles outbreaks across Texas counties using DSHS, TX datasets.}
+    \resumeItem{Enabled dynamic filtering, responsive popups, and map overlays for policy visualization.}
 \resumeItemListEnd
 
-\resumeSubheading{TRBAM Bluesky Dashboard}{}{\href{https://trbam-bluesky-dashboard.vercel.app/}{trbam-bluesky-dashboard.vercel.app}}{}
+\resumeSubheading{TRBAM Bluesky Dashboard (\href{https://trbam-bluesky-dashboard.vercel.app}{trbam-bluesky-dashboard.vercel.app})}{}{Next.js, React.js, Bluesky API, Tailwind CSS, SQLite, Drizzle ORM, Vercel}{}
 \resumeItemListStart
-    \resumeItem{Designed a React-based dashboard to fetch and display trending TRBAM-related posts from the Bluesky network.}
-    \resumeItem{Enabled keyword filtering and date-based visualization to support transportation research event analysis.}
+    \resumeItem{Created a dashboard to track TRBAM-related discussions using Bluesky's decentralized social data.}
+    \resumeItem{Added filtering and sorting tools for researchers to analyze post trends during the conference.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -130,7 +130,8 @@
 %----------- EDUCATION -----------
 \section{Education}
 \resumeSubHeadingListStart
-    \resumeSubheading{Texas State University}{San Marcos, TX}{Bachelor of Science in Computer Science (GPA: 4.0) | Dean's List Receptionist}{Expected May 2028}
+    \resumeSubheading{Texas State University}{San Marcos, TX}{Bachelor of Science in Computer Science (GPA: 4.0) | Dean's List (Fall 2024–Present)
+}{Expected May 2028}
 \resumeSubHeadingListEnd
 
 
