@@ -75,7 +75,7 @@
     \resumeSubItem{\textbf{Languages:} JavaScript, TypeScript, Python, R, C/C++, HTML, CSS, SQL, PHP}
     \resumeSubItem{\textbf{Web/App Development:} React.js, Next.js, React Native, Node.js, Express.js, REST APIs, MongoDB, MySQL, Prisma, Tailwind CSS}
     \resumeSubItem{\textbf{Tools \& Platforms:} Git, GitHub, Vite, Netlify, Cloudflare, WordPress, Expo, DigitalOcean, Linux}
-    \resumeSubItem{\textbf{Data \& Visualization:} RStudio, pandas, matplotlib, Leaflet.js, D3.js, Data Cleaning, Dashboarding}
+    \resumeSubItem{\textbf{Data \& Visualization:} RStudio, Pandas, GGplot, Leaflet.js, D3.js, Recharts, Chart.js, Data Cleaning, Dashboarding}
     \resumeSubItem{\textbf{Creative \& Other:} Figma, Canva, GIMP, SEO, System Administration, CLI Utilities, Documentation}
 \resumeSubHeadingListEnd
 
