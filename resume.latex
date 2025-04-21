@@ -83,7 +83,7 @@
 \section{Projects}
 \resumeSubHeadingListStart
 
-\resumeSubheading{Bhanai Programming Language (\href{https://www.npmjs.com/package/bhanai}{mpmjs.com/package/bhanai})}{}{Node.js, JavaScript, CLI Tools}{}
+\resumeSubheading{Bhanai Programming Language (\href{https://www.npmjs.com/package/bhanai}{npmjs.com/package/bhanai})}{}{Node.js, JavaScript, CLI Tools}{}
 \resumeItemListStart
     \resumeItem{Designed and developed a Nepali-inspired programming language with a custom lexer, parser, and interpreter.}
     \resumeItem{Published as a globally installable NPM package, enabling CLI-based scripting.}
