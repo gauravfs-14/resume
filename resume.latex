@@ -68,88 +68,78 @@
     \end{tabular}
 \end{center}
 
-
 %----------- SKILLS -----------
 \section{Skills}
 \resumeSubHeadingListStart
-    \resumeSubItem{\textbf{Languages:} JavaScript, TypeScript, Python, R, C/C++, HTML, CSS, SQL, PHP}
-    \resumeSubItem{\textbf{Web/App Development:} React.js, Next.js, React Native, Node.js, Express.js, REST APIs, MongoDB, MySQL, Prisma, Tailwind CSS}
-    \resumeSubItem{\textbf{Tools \& Platforms:} Git, GitHub, Vite, Netlify, Cloudflare, WordPress, Expo, Linux}
-    \resumeSubItem{\textbf{Data \& Visualization:} RStudio, Pandas, GGplot, Leaflet.js, D3.js, Recharts, Chart.js, Data Cleaning, Dashboarding}
-    \resumeSubItem{\textbf{Creative \& Other:} Figma, Canva, GIMP, SEO, System Administration, CLI Utilities, Documentation}
+  \resumeSubItem{\textbf{Languages:} TypeScript, JavaScript, Python, C/C++, SQL, R, HTML, CSS, PHP}
+  \resumeSubItem{\textbf{Web/Backend:} Next.js, React, Node.js, Express, REST; \textbf{DB:} MySQL, MongoDB, SQLite; \textbf{Tools:} Docker, Linux, Git, Neovim}
+  \resumeSubItem{\textbf{Data/ML/Viz:} pandas, numpy, scikit-learn, Hugging Face (Transformers), R (ggplot2, Shiny), D3.js, Leaflet.js}
+  \resumeSubItem{\textbf{Additional:} SEO, CLI tooling, WordPress, Domain management, Prompt engineering, CI/CD}
 \resumeSubHeadingListEnd
 
 %----------- PROJECTS -----------
 \section{Projects}
 \resumeSubHeadingListStart
 
-\resumeSubheading{Bhanai Programming Language (\href{https://www.npmjs.com/package/bhanai}{npmjs.com/package/bhanai})}{}{Node.js, JavaScript, CLI Tools}{}
+\resumeSubheading{CognitiveSky (\href{https://github.com/gauravfs-14/cognitivesky}{github.com/gauravfs-14/cognitivesky})}{Research Project}{Node.js, Python, Hugging Face (Transformers), React}{May 2025 – Aug 2025}
 \resumeItemListStart
-    \resumeItem{Designed and developed a Nepali-inspired programming language with a custom lexer, parser, and interpreter.}
-    \resumeItem{Published as a globally installable NPM package, enabling CLI-based scripting.}
+    \resumeItem{Engineered an end-to-end Bluesky Firehose pipeline with batched NLP labeling for sentiment, emotion, and topics, and delivered a Next.js research dashboard with Turso-backed snapshots; accepted for presentation at \textbf{HICSS 2026}.}
 \resumeItemListEnd
 
-\resumeSubheading{AIT Lab Website (\href{https://ait-lab.vercel.app}{ait-lab.vercel.app})}{}{Next.js, React.js, Tailwind CSS, Vercel}{}
+\resumeSubheading{CrashTransformer (\href{https://github.com/gauravfs-14/CrashTransformer}{github.com/gauravfs-14/crashtransformer})}{Research Project}{Python, Hugging Face (Transformers), Next.js}{Jul 2025 – Aug 2025}
 \resumeItemListStart
-    \resumeItem{Built a performant academic website for the AI in Transportation Lab at Texas State University.}
-    \resumeItem{Achieved 90+ Lighthouse scores in SEO and performance audits.}
+    \resumeItem{Developed a transformer-based workflow for narrative summarization and severity inference across \textbf{150k+ police reports} with reproducible evaluation and open documentation; submitted to \textbf{IJCNLP 2025} and \textbf{TRBAM 2026}.}
 \resumeItemListEnd
 
-\resumeSubheading{ComputeNepal (\href{https://computenepal.com}{computenepal.com})}{}{WordPress, SEO, Google Analytics, HTML/CSS, Hosting Tools}{}
+\resumeSubheading{Bhanai Programming Language (\href{https://www.npmjs.com/package/bhanai}{npmjs.com/package/bhanai})}{Personal Project}{Node.js, CLI Tools}{Jan 2021 – Feb 2021}
 \resumeItemListStart
-    \resumeItem{Founded a technical education platform with 200+ articles and tools, reaching thousands of users.}
-    \resumeItem{Increased monthly traffic by 300\% via technical SEO and engagement strategies.}
+    \resumeItem{Published a Nepali-style interpreted language that executes \texttt{.bhn} files via \texttt{chalau}, supporting variables, conditionals (\texttt{yadi}...\texttt{aru}), comments, lists, and objects under the MIT license, reaching early adoption among hobbyist developers.}
 \resumeItemListEnd
 
-\resumeSubheading{Texas Measles Dashboard (\href{https://measles-dashboard.vercel.app}{measles-dashboard.vercel.app})}{}{Next.js, Leaflet.js, JavaScript, TypeScript, Python, CSV Parsing}{}
+\resumeSubheading{ComputeNepal (\href{https://computenepal.com}{computenepal.com})}{Open Source}{WordPress, SEO, Open Source}{May 2021 – Present}
 \resumeItemListStart
-    \resumeItem{Built an interactive dashboard to visualize measles outbreaks across Texas counties using DSHS, TX datasets.}
-    \resumeItem{Enabled dynamic filtering, responsive popups, and map overlays for policy visualization.}
+    \resumeItem{Founded an education platform with \textbf{200+ articles} and expanded reach to \textbf{50k+ monthly impressions} through technical SEO and open source learning tools, including Learn C, JS Challenges, Learn HTML, and Quiz.}
 \resumeItemListEnd
 
-\resumeSubheading{TRBAM Bluesky Dashboard (\href{https://trbam-bluesky-dashboard.vercel.app}{trbam-bluesky-dashboard.vercel.app})}{}{Next.js, React.js, Bluesky API, Tailwind CSS, SQLite, Drizzle ORM, Vercel}{}
+\resumeSubheading{Research Dashboards and Tools (\href{https://github.com/gauravfs-14}{github.com/gauravfs-14})}{Research Project}{Next.js, Leaflet.js, TypeScript}{Oct 2024 – Present}
 \resumeItemListStart
-    \resumeItem{Created a dashboard to track TRBAM-related discussions using Bluesky's decentralized social data.}
-    \resumeItem{Added filtering and sorting tools for researchers to analyze post trends during the conference.}
+    \resumeItem{Delivered \textbf{25+} interactive dashboards with filtering, clustering, overlays, and responsive UI in Next.js and Leaflet, ingesting CSV, SQLite, and API sources to support research and policy analysis.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
 
-
 %----------- EXPERIENCE -----------
 \section{Experience}
 \resumeSubHeadingListStart
-    \resumeSubheading{Texas State University}{San Marcos, TX}{Undergraduate Research Assistant}{Oct 2024 – Present}
+    \resumeSubheading{Undergraduate Research Assistant }{San Marcos, TX}{AIT Lab @ Texas State University}{Oct 2024 – Present}
     \resumeItemListStart
-        \resumeItem{Developed 25+ analytical and visualization tools to improve data interpretation for AI-driven transportation research.}
-        \resumeItem{Analyzed large datasets (150k+ entries) using JavaScript, R, and Python to draw meaningful insights from the data.}
-        \resumeItem{Contributed to 6+ academic papers by conducting in-depth data analysis, figure preparation, visualization, and technical writing.}
+        \resumeItem{Produced \textbf{25+ analytical and visualization tools} across internal and open source contexts, processed \textbf{150k+} mobility and crash records, and standardized AI in transportation workflows with reproducible pipelines.}
+        \resumeItem{Co-authored \textbf{5+ manuscripts} published or online with \textbf{10+} additional submissions in progress, contributing methods, analysis, modeling, quality control, and documentation in Python, R, and JavaScript.}
+        \resumeItem{Designed the AIT Lab website in Next.js and Tailwind, deployed on Vercel, and achieved \textbf{90+ Lighthouse} SEO and performance scores across publications, projects, team, and resources sections.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%----------- HONORS & AWARDS -----------
+\section{Honors \& Awards}
+\resumeSubHeadingListStart
+    \resumeSubheading{Hackathon Wins}{Austin \& San Marcos, TX}{HackaCat Nano 2024, RiverHacks 2025, Organized AI Hackathon 2025}{Aug 2024 – Present}
+    \resumeItemListStart
+        \resumeItem{Secured \textbf{3 of 4 hackathons wins} since 2024, building projects such as \textit{\textbf{RUMI}} (AI roommate finder), \textit{\textbf{ResQMe}} (AI emergency response system), and \textit{\textbf{MedGuide AI}} (medical assistant with LangGraph and RAG).}
+    \resumeItemListEnd
+
+    \resumeSubheading{Undergraduate Research Fellowship}{Texas State University}{Competitive Research Fellowship}{Mar 2025}
+    \resumeItemListStart
+        \resumeItem{Awarded \$2,000 in Quanta Services funding to lead an independent research project on heat stress prediction.}
     \resumeItemListEnd
 \resumeSubHeadingListEnd
 
 %----------- EDUCATION -----------
 \section{Education}
 \resumeSubHeadingListStart
-    \resumeSubheading{Texas State University}{San Marcos, TX}{Bachelor of Science in Computer Science (GPA: 4.0) | Dean's List (Fall 2024–Present)
-}{Expected May 2028}
-\resumeSubHeadingListEnd
-
-
-%----------- HONORS & AWARDS -----------
-\section{Honors \& Awards}
-\resumeSubHeadingListStart
-    \resumeSubheading{Best in Development/Coding - Hackacat Nano 2024}{San Marcos, TX}{Organized by: ACM AI @ TXST}{Nov 2024}
-    \resumeItemListStart
-        \resumeItem{Developed RUMI: An AI-powered roommate finder using React, Node.js, and OpenAI in just 7 hours.}
-    \resumeItemListEnd
-\resumeSubHeadingListEnd
-
-%----------- PUBLICATIONS -----------
-\section{Publications}
-\resumeSubHeadingListStart
-    \resumeSubheading{\href{https://myrepublica.nagariknetwork.com/news/online-gaming-and-child-safety/}{Online Gaming and Child Safety}}{Pokhara, Nepal}{ 
-    Read @ 
-    \href{https://myrepublica.nagariknetwork.com/news/online-gaming-and-child-safety/}{República - The Partner of New York Times}}{Apr 2023}
+  \resumeSubheading{Bachelor of Science in Computer Science}{San Marcos, TX}{Texas State University (GPA: 4.0) | Dean's List (Fall 2024 – Present)}{Expected May 2028}
+  \resumeItemListStart
+    \resumeItem{\textit{Coursework}: Data Structures, Algorithms, Assembly Language, Discrete Math, Probability \& Statistics, Calculus}
+  \resumeItemListEnd
 \resumeSubHeadingListEnd
 
 \end{document}
