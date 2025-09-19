@@ -74,7 +74,7 @@
   \resumeSubItem{\textbf{Languages:} TypeScript, JavaScript, Python, C/C++, SQL, R, HTML, CSS, PHP}
   \resumeSubItem{\textbf{Web/Backend:} Next.js, React, Node.js, Express, REST; \textbf{DB:} MySQL, MongoDB, SQLite; \textbf{Tools:} Docker, Linux, Git, Neovim}
   \resumeSubItem{\textbf{Data/ML/Viz:} pandas, numpy, scikit-learn, Hugging Face (Transformers), R (ggplot2, Shiny), D3.js, Leaflet.js}
-  \resumeSubItem{\textbf{Additional:} SEO, CLI tooling, WordPress, Domain management, Prompt engineering, CI/CD}
+  \resumeSubItem{\textbf{Additional:} SEO, CLI tooling, WordPress, Domain management, Prompt engineering, CI/CD, GitHub Actions}
 \resumeSubHeadingListEnd
 
 %----------- PROJECTS -----------
@@ -88,7 +88,7 @@
 
 \resumeSubheading{CrashTransformer (\href{https://github.com/gauravfs-14/CrashTransformer}{github.com/gauravfs-14/crashtransformer})}{Research Project}{Python, Hugging Face (Transformers), Next.js}{Jul 2025 – Aug 2025}
 \resumeItemListStart
-    \resumeItem{Developed a transformer-based workflow for narrative summarization and severity inference across \textbf{150k+ police reports} with reproducible evaluation and open documentation; submitted to \textbf{IJCNLP 2025} and \textbf{TRBAM 2026}.}
+    \resumeItem{Developed a transformer-based workflow for narrative summarization and severity inference across \textbf{150k+ police reports} with reproducible evaluation and open documentation.}
 \resumeItemListEnd
 
 \resumeSubheading{Bhanai Programming Language (\href{https://www.npmjs.com/package/bhanai}{npmjs.com/package/bhanai})}{Personal Project}{Node.js, CLI Tools}{Jan 2021 – Feb 2021}
