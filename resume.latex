@@ -122,9 +122,9 @@
 %----------- HONORS & AWARDS -----------
 \section{Honors \& Awards}
 \resumeSubHeadingListStart
-    \resumeSubheading{Hackathon Wins}{Austin \& San Marcos, TX}{HackaCat Nano 2024, RiverHacks 2025, Organized AI Hackathon 2025}{Aug 2024 – Present}
+    \resumeSubheading{Hackathon Wins}{Austin \& San Marcos, TX}{HackaCat Nano 2024, RiverHacks 2025 $\times$ 2, Organized AI Hackathon 2025}{Aug 2024 – Present}
     \resumeItemListStart
-        \resumeItem{Secured \textbf{3 of 4 hackathons wins} since 2024, building projects such as \textit{\textbf{RUMI}} (AI roommate finder), \textit{\textbf{ResQMe}} (AI emergency response system), and \textit{\textbf{MedGuide AI}} (medical assistant with LangGraph and RAG).}
+        \resumeItem{Secured \textbf{4 of 5 hackathons wins} since 2024, building projects such as \textit{\textbf{RUMI}} (AI roommate finder), \textit{\textbf{ResQMe}} (AI emergency response system), and \textit{\textbf{MedGuide AI}} (medical assistant with LangGraph and RAG).}
     \resumeItemListEnd
 
     \resumeSubheading{Undergraduate Research Fellowship}{Texas State University}{Competitive Research Fellowship}{Mar 2025}
