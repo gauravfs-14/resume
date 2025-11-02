@@ -3,6 +3,9 @@
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
 \usepackage{marvosym}
 \usepackage{hyperref}
 \usepackage{enumitem}
@@ -10,7 +13,6 @@
 \usepackage{mathptmx} % Times New Roman Font
 \usepackage{fancyhdr}
 \usepackage{xcolor}
-\usepackage{fontawesome5} % For social media icons
 
 \hypersetup{
     colorlinks=true,
@@ -50,97 +52,94 @@
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
+\newcommand{\resumeProject}[2]{%
+  \vspace{-2pt}\item
+  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & \textit{\small #2} \\
+  \end{tabular*}\vspace{-7pt}}
+
+\newcommand{\plainlink}[2]{\href{#1}{\textnormal{#2}}}
+
 %----------- RESUME STARTS HERE -----------
 
 \begin{document}
 
 % Header
 \begin{center}
-    {{\fontsize{18pt}{22pt} \selectfont \textbf{Gaurab Chhetri}}} \\[3pt]
-    \small
-    \begin{tabular}{c}
-        Austin, TX $|$
-        \faGithub\ \href{https://github.com/gauravfs-14}{gauravfs-14} $|$
-        \faLinkedin\ \href{https://www.linkedin.com/in/gaurabchhetri/}{gaurabchhetri} $|$
-        \faGlobe\ \href{https://gaurabchhetri.com.np}{gaurabchhetri.com.np} $|$
-        \faEnvelope\ \href{mailto:contact@gaurabchhetri.com.np}{contact@gaurabchhetri.com.np} $|$
-         +1 (xxx) xxx-xxxx
-    \end{tabular}
+  {\fontsize{18pt}{22pt}\selectfont \textbf{Gaurab Chhetri}}\\[3pt]
+  \small
+  Austin, TX $|$ +1 (XXX) XXX-XXXX $|$ \href{mailto:contact@gaurabchhetri.com.np}{contact@gaurabchhetri.com.np}\\[2pt]
+  GitHub: \href{https://github.com/gauravfs-14}{gauravfs-14} $|$ 
+  LinkedIn: \href{https://www.linkedin.com/in/gaurabchhetri/}{gaurabchhetri} $|$ 
+  Web: \href{https://gaurabchhetri.com.np}{gaurabchhetri.com.np} \\
 \end{center}
+
+\section{Summary}
+Undergraduate researcher and full-stack engineer building AI systems and OSS tools; first-author and co-author on multiple papers with several preprints, including CognitiveSky accepted for HICSS-59, and an active GitHub with many projects.
+\vspace{-6pt}
+
+%----------- EDUCATION -----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading{Bachelor of Science in Computer Science}{San Marcos, TX}{Texas State University, GPA: 4.0 | President's List (Fall 2024 – Spring 2025)}{Expected May 2028}
+\resumeSubHeadingListEnd
 
 %----------- SKILLS -----------
 \section{Skills}
 \resumeSubHeadingListStart
-  \resumeSubItem{\textbf{Languages:} TypeScript, JavaScript, Python, C/C++, SQL, R, HTML, CSS, PHP}
-  \resumeSubItem{\textbf{Web/Backend:} Next.js, React, Node.js, Express, REST; \textbf{DB:} MySQL, MongoDB, SQLite; \textbf{Tools:} Docker, Linux, Git, Neovim}
-  \resumeSubItem{\textbf{Data/ML/Viz:} pandas, numpy, scikit-learn, Hugging Face (Transformers), R (ggplot2, Shiny), D3.js, Leaflet.js}
-  \resumeSubItem{\textbf{Additional:} SEO, CLI tooling, WordPress, Domain management, Prompt engineering, CI/CD, GitHub Actions}
+  \resumeSubItem{\textbf{Languages:} TypeScript, JavaScript, Python, C/C++, SQL, R}
+  \resumeSubItem{\textbf{AI/ML:} PyTorch, Transformers (Hugging Face), scikit-learn, TF–IDF, NMF}
+  \resumeSubItem{\textbf{Frameworks:} React, Next.js, Node.js, Express, LangChain, Streamlit, Tailwind CSS}
+  \resumeSubItem{\textbf{Tools/Databases:} PostgreSQL, MongoDB, Supabase, Docker, Git, Linux, CI/CD, GitHub Actions}
+\resumeSubHeadingListEnd
+
+%----------- EXPERIENCE -----------
+\section{Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading{Undergraduate Research Assistant}{San Marcos, TX}{AIT Lab, Texas State University}{Oct 2024 – Present}
+  \resumeItemListStart
+    \resumeItem{Engineered and deployed \textbf{25+ data-driven web tools} for AI and transportation research, processing \textbf{150k+} mobility and crash records with reproducible pipelines in Python and JavaScript.}
+    \resumeItem{Implemented ML workflows for crash analytics and safety prediction, contributing to \textbf{5+ published papers}.}
+    \resumeItem{Developed and optimized the AIT Lab website (Next.js + Tailwind), achieving \textbf{90+ Lighthouse} performance and SEO scores.}
+  \resumeItemListEnd
 \resumeSubHeadingListEnd
 
 %----------- PROJECTS -----------
 \section{Projects}
 \resumeSubHeadingListStart
 
-\resumeSubheading{CognitiveSky (\href{https://github.com/gauravfs-14/cognitivesky}{github.com/gauravfs-14/cognitivesky})}{Research Project}{Node.js, Python, Hugging Face (Transformers), React}{May 2025 – Aug 2025}
+\resumeProject{CognitiveSky \plainlink{https://github.com/gauravfs-14/CognitiveSky}{--- github.com/gauravfs-14/CognitiveSky}}{Research Project}
 \resumeItemListStart
-    \resumeItem{Engineered an end-to-end Bluesky Firehose pipeline with batched NLP labeling for sentiment, emotion, and topics, and delivered a Next.js research dashboard with Turso-backed snapshots; accepted for presentation at \textbf{HICSS 2026}.}
+\resumeItem{Accepted for \textbf{presentation at HICSS-59 (2026)}. Built an end-to-end system for analyzing mental health narratives on Bluesky using Node.js, Python, and Transformers integrated with a Next.js dashboard.}
+\resumeItem{Automated 24×7 ingestion and labeling via GitHub Actions, applying sentiment, emotion, and topic modeling to generate interactive JSON-based summaries.}
 \resumeItemListEnd
 
-\resumeSubheading{CrashTransformer (\href{https://github.com/gauravfs-14/CrashTransformer}{github.com/gauravfs-14/crashtransformer})}{Research Project}{Python, Hugging Face (Transformers), Next.js}{Jul 2025 – Aug 2025}
+\resumeProject{Adaptly \plainlink{https://github.com/gauravfs-14/adaptly}{--- github.com/gauravfs-14/adaptly}}{Open Source Library}
 \resumeItemListStart
-    \resumeItem{Developed a transformer-based workflow for narrative summarization and severity inference across \textbf{150k+ police reports} with reproducible evaluation and open documentation.}
+\resumeItem{Created a TypeScript-based AI-adaptive UI library that turns natural-language commands into live React layouts using an LLM-driven planner integrated with Next.js and Tailwind.}
+\resumeItem{Implemented a Cmd+K command palette and adaptive layout engine supporting OpenAI, Anthropic, and Gemini models for real-time interface recomposition; \textbf{published as an open-source package}.}
 \resumeItemListEnd
 
-\resumeSubheading{Bhanai Programming Language (\href{https://www.npmjs.com/package/bhanai}{npmjs.com/package/bhanai})}{Personal Project}{Node.js, CLI Tools}{Jan 2021 – Feb 2021}
+\resumeProject{MedGuide AI \plainlink{https://github.com/gauravfs-14/medguide-ai}{--- github.com/gauravfs-14/medguide-ai}}{Hackathon Project}
 \resumeItemListStart
-    \resumeItem{Published a Nepali-style interpreted language that executes \texttt{.bhn} files via \texttt{chalau}, supporting variables, conditionals (\texttt{yadi}...\texttt{aru}), comments, lists, and objects under the MIT license, reaching early adoption among hobbyist developers.}
+\resumeItem{Built a privacy-first medical assistant that interprets health documents via LangGraph agents, local embeddings (Ollama), and a retrieval-augmented Streamlit interface; \textbf{winner of the Organized AI Hackathon, Austin, TX}.}
+\resumeItem{Used the Model Context Protocol (MCP) for memory, PDF parsing (PyMuPDF), and semantic search with ChromaDB, deployed in Docker for secure offline use.}
 \resumeItemListEnd
 
-\resumeSubheading{ComputeNepal (\href{https://computenepal.com}{computenepal.com})}{Open Source}{WordPress, SEO, Open Source}{May 2021 – Present}
+\resumeProject{VidXiv \plainlink{https://github.com/gauravfs-14/vidxiv}{--- github.com/gauravfs-14/vidxiv}}{Personal Project}
 \resumeItemListStart
-    \resumeItem{Founded an education platform with \textbf{200+ articles} and expanded reach to \textbf{50k+ monthly impressions} through technical SEO and open source learning tools, including Learn C, JS Challenges, Learn HTML, and Quiz.}
+\resumeItem{Developed a Streamlit app that converts arXiv papers into narrated videos using Gemini for summarization, TTS for narration, and MoviePy for visual rendering.}
+\resumeItem{Added multi-scene generation, portrait/landscape support, and background music to create polished, YouTube-ready educational content; \textbf{used for paper stories at AIT Lab}, Texas State University.}
 \resumeItemListEnd
 
-\resumeSubheading{Research Dashboards and Tools (\href{https://github.com/gauravfs-14}{github.com/gauravfs-14})}{Research Project}{Next.js, Leaflet.js, TypeScript}{Oct 2024 – Present}
-\resumeItemListStart
-    \resumeItem{Delivered \textbf{25+} interactive dashboards with filtering, clustering, overlays, and responsive UI in Next.js and Leaflet, ingesting CSV, SQLite, and API sources to support research and policy analysis.}
-\resumeItemListEnd
-
-\resumeSubHeadingListEnd
-
-%----------- EXPERIENCE -----------
-\section{Experience}
-\resumeSubHeadingListStart
-    \resumeSubheading{Undergraduate Research Assistant }{San Marcos, TX}{AIT Lab @ Texas State University}{Oct 2024 – Present}
-    \resumeItemListStart
-        \resumeItem{Produced \textbf{25+ analytical and visualization tools} across internal and open source contexts, processed \textbf{150k+} mobility and crash records, and standardized AI in transportation workflows with reproducible pipelines.}
-        \resumeItem{Co-authored \textbf{5+ manuscripts} published or online with \textbf{10+} additional submissions in progress, contributing methods, analysis, modeling, quality control, and documentation in Python, R, and JavaScript.}
-        \resumeItem{Designed the AIT Lab website in Next.js and Tailwind, deployed on Vercel, and achieved \textbf{90+ Lighthouse} SEO and performance scores across publications, projects, team, and resources sections.}
-    \resumeItemListEnd
 \resumeSubHeadingListEnd
 
 %----------- HONORS & AWARDS -----------
-\section{Honors \& Awards}
+\section{Honors And Awards}
 \resumeSubHeadingListStart
-    \resumeSubheading{Hackathon Wins}{Austin \& San Marcos, TX}{HackaCat Nano 2024, RiverHacks 2025 $\times$ 2, Organized AI Hackathon 2025}{Aug 2024 – Present}
-    \resumeItemListStart
-        \resumeItem{Secured \textbf{4 of 5 hackathon wins} since 2024, building projects such as \textit{\textbf{RUMI}} (AI roommate finder), \textit{\textbf{ResQMe}} (AI emergency response system), \textit{\textbf{MedGuide AI}} (medical assistant with LangGraph and RAG), and \textit{\textbf{Beyond Blue}} (AI/ML exoplanet exploration platform).}
-    \resumeItemListEnd
-
-
-    \resumeSubheading{Undergraduate Research Fellowship}{Texas State University}{Competitive Research Fellowship}{Mar 2025}
-    \resumeItemListStart
-        \resumeItem{Awarded \$2,000 in Quanta Services funding to lead an independent research project on heat stress prediction.}
-    \resumeItemListEnd
-\resumeSubHeadingListEnd
-
-%----------- EDUCATION -----------
-\section{Education}
-\resumeSubHeadingListStart
-  \resumeSubheading{Bachelor of Science in Computer Science}{San Marcos, TX}{Texas State University (GPA: 4.0) | Dean's List (Fall 2024 – Present)}{Expected May 2028}
-  \resumeItemListStart
-    \resumeItem{\textit{Coursework}: Data Structures, Algorithms, Assembly Language, Discrete Math, Probability \& Statistics, Calculus}
-  \resumeItemListEnd
+  \resumeSubheading{Hackathon Wins}{Austin/ San Marcos, TX}{Won 3+ hackathons since 2024, building projects like RUMI, ResQMe, MedGuide AI.}{2024 – Present}
+  \\
+  \resumeSubheading{Undergraduate Research Fellowship}{Texas State University}{\$2k Quanta Services grant for AI-based heat-stress prediction research.}{Mar 2025}
 \resumeSubHeadingListEnd
 
 \end{document}
