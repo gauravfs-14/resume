@@ -10,15 +10,9 @@
     />
     <style>
       @keyframes float {
-        0% {
-          transform: translateY(0);
-        }
-        50% {
-          transform: translateY(-10px);
-        }
-        100% {
-          transform: translateY(0);
-        }
+        0% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+        100% { transform: translateY(0); }
       }
       .float {
         animation: float 3s ease-in-out infinite;
@@ -26,13 +20,15 @@
     </style>
   </head>
   <body class="relative">
-    <!-- <a
+    <!-- Visible only on mobile and tablet -->
+    <a
       href="./resume/resume.pdf"
       download
-      class="absolute top-4 left-4 bg-blue-500 text-white px-4 py-2 rounded float"
+      class="fixed top-4 left-4 z-10 bg-blue-500 text-white px-4 py-2 rounded float lg:hidden"
     >
       Download Resume
-    </a> -->
+    </a>
+
     <embed
       src="./resume/resume.pdf"
       type="application/pdf"
