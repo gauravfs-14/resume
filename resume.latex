@@ -1,145 +1,118 @@
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,10pt]{article}
 
-\usepackage{latexsym}
-\usepackage[empty]{fullpage}
-\usepackage{titlesec}
-\usepackage{latexsym}
-\usepackage[empty]{fullpage}
-\usepackage{titlesec}
-\usepackage{marvosym}
-\usepackage{hyperref}
+\usepackage[letterpaper,left=0.55in,right=0.55in,top=0.46in,bottom=0.46in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+% \usepackage[hidelinks]{hyperref}
+\usepackage[urlcolor=blue,colorlinks=true]{hyperref}
 \usepackage{enumitem}
-\usepackage{cleveref}
-\usepackage{mathptmx} % Times New Roman Font
-\usepackage{fancyhdr}
-\usepackage{xcolor}
+\usepackage{titlesec}
+\input{glyphtounicode}
+\pdfgentounicode=1
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
 
-\hypersetup{
-    colorlinks=true,
-    urlcolor=black
+% ATS-friendly section hierarchy: plain text, single column, no tables/icons/text boxes.
+\titleformat{\section}
+  {\bfseries\normalsize}
+  {}{0pt}{}
+  [\vspace{1pt}\titlerule]
+\titlespacing*{\section}{0pt}{5pt}{3pt}
+
+\setlist[itemize]{
+  leftmargin=0.17in,
+  label=\textbullet,
+  itemsep=0.8pt,
+  topsep=0pt,
+  parsep=0pt,
+  partopsep=0pt
 }
 
-\pagestyle{fancy}
-\fancyhf{}
-\fancyfoot{}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-
-\addtolength{\oddsidemargin}{-0.5in}
-\addtolength{\evensidemargin}{-0.5in}
-\addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-0.5in}
-\addtolength{\textheight}{1.0in}
-
-\urlstyle{same}
-
-\setlength{\tabcolsep}{0in}
-
-% Formatting Sections
-\titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
-
-% Custom commands
-\newcommand{\resumeItem}[1]{\item\small{#1 \vspace{-2pt}}}
-\newcommand{\resumeSubheading}[4]{\vspace{-2pt}\item \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r} \textbf{#1} & #2 \\ \textit{\small#3} & \textit{\small #4} \\ \end{tabular*}\vspace{-7pt}}
-\newcommand{\resumeProjectHeading}[2]{\item \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r} \small#1 & #2 \\ \end{tabular*}\vspace{-7pt}}
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
-\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
-
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
-
-\newcommand{\resumeProject}[2]{%
-  \vspace{-2pt}\item
-  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-    \textbf{#1} & \textit{\small #2} \\
-  \end{tabular*}\vspace{-7pt}}
-
-\newcommand{\plainlink}[2]{\href{#1}{\textnormal{#2}}}
-
-%----------- RESUME STARTS HERE -----------
+\newcommand{\entry}[2]{%
+  \textbf{#1}\hfill #2\\[-1pt]
+}
+\newcommand{\subentry}[1]{%
+  \textit{#1}
+}
+\newcommand{\project}[2]{%
+  \textbf{#1} \textbar\ #2
+}
 
 \begin{document}
 
-% Header
+%==================== HEADER ====================
 \begin{center}
-  {\fontsize{18pt}{22pt}\selectfont \textbf{Gaurab Chhetri}}\\[3pt]
-  \small
-  Austin, TX $|$ +1 (XXX) XXX-XXXX $|$ \href{mailto:contact@gaurabchhetri.com.np}{contact@gaurabchhetri.com.np}\\[2pt]
-  GitHub: \href{https://github.com/gauravfs-14}{gauravfs-14} $|$ 
-  LinkedIn: \href{https://www.linkedin.com/in/gaurabchhetri/}{gaurabchhetri} $|$ 
-  Web: \href{https://gaurabchhetri.com.np}{gaurabchhetri.com.np} \\
+  {\Large\textbf{Gaurab Chhetri}}\\[2pt]
+  Austin, TX \textbar\ +1 (xxx) xxx-xxxx \textbar\
+  \href{mailto:contact@gaurabchhetri.com.np}{contact@gaurabchhetri.com.np}\\[1pt]
+  \href{https://www.linkedin.com/in/gaurabchhetri/}{linkedin.com/in/gaurabchhetri}
+  \textbar\ \href{https://github.com/gauravfs-14}{github.com/gauravfs-14}
+  \textbar\ \href{https://gaurabchhetri.com.np}{gaurabchhetri.com.np}
 \end{center}
-
-\section{Summary}
-Undergraduate researcher and full-stack engineer building AI systems and OSS tools; first-author and co-author on multiple papers with several preprints, including CognitiveSky accepted for HICSS-59, and an active GitHub with many projects.
 \vspace{-6pt}
 
-%----------- EDUCATION -----------
+%==================== EDUCATION ====================
 \section{Education}
-\resumeSubHeadingListStart
-  \resumeSubheading{Bachelor of Science in Computer Science}{San Marcos, TX}{Texas State University, GPA: 4.0 | President's List (Fall 2024 – Spring 2025)}{Expected May 2028}
-\resumeSubHeadingListEnd
+\entry{Texas State University, San Marcos, TX}{Expected May 2028}
+\subentry{Bachelor of Science in Computer Science \textbar\ GPA: 3.9}
 
-%----------- SKILLS -----------
-\section{Skills}
-\resumeSubHeadingListStart
-  \resumeSubItem{\textbf{Languages:} TypeScript, JavaScript, Python, C/C++, SQL, R}
-  \resumeSubItem{\textbf{AI/ML:} PyTorch, Transformers (Hugging Face), scikit-learn, TF–IDF, NMF}
-  \resumeSubItem{\textbf{Frameworks:} React, Next.js, Node.js, Express, LangChain, Streamlit, Tailwind CSS}
-  \resumeSubItem{\textbf{Tools/Databases:} PostgreSQL, MongoDB, Supabase, Docker, Git, Linux, CI/CD, GitHub Actions}
-\resumeSubHeadingListEnd
+President's List: Fall 2024, Spring 2025, Spring 2026 \textbar\ Dean's List: Fall 2025
 
-%----------- EXPERIENCE -----------
+%==================== RESEARCH EXPERIENCE ====================
 \section{Experience}
-\resumeSubHeadingListStart
-  \resumeSubheading{Undergraduate Research Assistant}{San Marcos, TX}{AIT Lab, Texas State University}{Oct 2024 – Present}
-  \resumeItemListStart
-    \resumeItem{Engineered and deployed \textbf{25+ data-driven web tools} for AI and transportation research, processing \textbf{150k+} mobility and crash records with reproducible pipelines in Python and JavaScript.}
-    \resumeItem{Implemented ML workflows for crash analytics and safety prediction, contributing to \textbf{5+ published papers}.}
-    \resumeItem{Developed and optimized the AIT Lab website (Next.js + Tailwind), achieving \textbf{90+ Lighthouse} performance and SEO scores.}
-  \resumeItemListEnd
-\resumeSubHeadingListEnd
+\entry{Undergraduate Research Assistant}{Oct 2024 -- Present}
+\subentry{Artificial Intelligence in Transportation (AIT) Lab, Texas State University \textbar\ San Marcos, TX}
+\begin{itemize}
+  \item Develop AI/NLP methods, reproducible data pipelines, and research software for transportation safety, crash narrative analysis, and large-scale behavioral data.
+  \item Engineered \textbf{25+ research-facing web and data tools} and processed \textbf{150k+ mobility and crash records} using Python, JavaScript, SQL, and automated workflows.
+  \item Contribute to experimental design, model benchmarking, statistical analysis, and manuscript development across research projects supporting \textbf{10+ published papers}.
+\end{itemize}
 
-%----------- PROJECTS -----------
-\section{Projects}
-\resumeSubHeadingListStart
+%==================== PUBLICATIONS ====================
+\section{Selected Publications}
+\begin{itemize}
+  \item \textbf{Chhetri, G.}, Dutta, A., and Das, S. ``CognitiveSky: Scalable Sentiment and Narrative Analysis for Decentralized Social Media.'' \textit{HICSS-59}, 2026. \href{https://doi.org/10.24251/HICSS.2026.364}{DOI: 10.24251/HICSS.2026.364}
+  \item \textbf{Chhetri, G.}, Das, S., and Chowdhury, T. I. ``SPARK: Search Personalization via Agent-Driven Retrieval and Knowledge-sharing.'' \textit{WSDM Companion}, 2026, pp. 84--92. \href{https://doi.org/10.48550/arXiv.2512.24008}{DOI: 10.48550/arXiv.2512.24008}
+  \item \textbf{Chhetri, G.}, Das, S., and Chowdhury, T. I. ``WISE: Web Information Satire and Fakeness Evaluation.'' \textit{WSDM Companion}, 2026, pp. 93--102. \href{https://doi.org/10.48550/arXiv.2512.24000}{DOI: 10.48550/arXiv.2512.24000}
+  \item \textbf{Chhetri, G.}, Anderson, D., Kutela, B., and Das, S. ``A Transformer-Based Cross-Platform Analysis of Public Discourse on the 15-Minute City Paradigm.'' \textit{ICMLA}, 2025, pp. 410--415. \href{https://doi.org/10.1109/ICMLA66185.2025.00062}{DOI: 10.1109/ICMLA66185.2025.00062}
+\end{itemize}
+\textbf{Research Impact:} 230+ Google Scholar citations; h-index 6; i10-index 6 as of \today.
 
-\resumeProject{CognitiveSky \plainlink{https://github.com/gauravfs-14/CognitiveSky}{--- github.com/gauravfs-14/CognitiveSky}}{Research Project}
-\resumeItemListStart
-\resumeItem{Accepted for \textbf{presentation at HICSS-59 (2026)}. Built an end-to-end system for analyzing mental health narratives on Bluesky using Node.js, Python, and Transformers integrated with a Next.js dashboard.}
-\resumeItem{Automated 24×7 ingestion and labeling via GitHub Actions, applying sentiment, emotion, and topic modeling to generate interactive JSON-based summaries.}
-\resumeItemListEnd
+%==================== PROJECTS ====================
+\section{Selected Projects}
+\project{Adaptly}{TypeScript, React, Next.js, LLM APIs \textbar\ \href{https://github.com/gauravfs-14/adaptly}{github.com/gauravfs-14/adaptly}}
+\begin{itemize}
+  \item Built an open-source AI-adaptive UI library that converts natural-language goals into live React interface changes using an LLM planner, component registry, persistent state, and OpenAI, Anthropic, and Gemini support.
+\end{itemize}
 
-\resumeProject{Adaptly \plainlink{https://github.com/gauravfs-14/adaptly}{--- github.com/gauravfs-14/adaptly}}{Open Source Library}
-\resumeItemListStart
-\resumeItem{Created a TypeScript-based AI-adaptive UI library that turns natural-language commands into live React layouts using an LLM-driven planner integrated with Next.js and Tailwind.}
-\resumeItem{Implemented a Cmd+K command palette and adaptive layout engine supporting OpenAI, Anthropic, and Gemini models for real-time interface recomposition; \textbf{published as an open-source package}.}
-\resumeItemListEnd
+\project{MedGuide AI}{Python, LangGraph, MCP, ChromaDB, Streamlit \textbar\ \href{https://github.com/gauravfs-14/medguide-ai}{github.com/gauravfs-14/medguide-ai}}
+\begin{itemize}
+  \item Built a privacy-first agentic document analysis system using LangGraph orchestration, Model Context Protocol tools, retrieval-augmented generation, local embeddings, and Docker; won the Organized AI Hackathon in Austin.
+\end{itemize}
 
-\resumeProject{MedGuide AI \plainlink{https://github.com/gauravfs-14/medguide-ai}{--- github.com/gauravfs-14/medguide-ai}}{Hackathon Project}
-\resumeItemListStart
-\resumeItem{Built a privacy-first medical assistant that interprets health documents via LangGraph agents, local embeddings (Ollama), and a retrieval-augmented Streamlit interface; \textbf{winner of the Organized AI Hackathon, Austin, TX}.}
-\resumeItem{Used the Model Context Protocol (MCP) for memory, PDF parsing (PyMuPDF), and semantic search with ChromaDB, deployed in Docker for secure offline use.}
-\resumeItemListEnd
+\project{lit-mcp}{Python, MCP, arXiv, DBLP \textbar\ \href{https://github.com/gauravfs-14/lit-mcp}{github.com/gauravfs-14/lit-mcp}}
+\begin{itemize}
+  \item Built a Model Context Protocol server for literature review with arXiv/DBLP discovery, structured research metadata, and LLM-ready tools for academic search workflows.
+\end{itemize}
 
-\resumeProject{VidXiv \plainlink{https://github.com/gauravfs-14/vidxiv}{--- github.com/gauravfs-14/vidxiv}}{Personal Project}
-\resumeItemListStart
-\resumeItem{Developed a Streamlit app that converts arXiv papers into narrated videos using Gemini for summarization, TTS for narration, and MoviePy for visual rendering.}
-\resumeItem{Added multi-scene generation, portrait/landscape support, and background music to create polished, YouTube-ready educational content; \textbf{used for paper stories at AIT Lab}, Texas State University.}
-\resumeItemListEnd
+%==================== HONORS ====================
+\section{Honors and Awards}
+\begin{itemize}
+  \item \textbf{Undergraduate Research Fellowship}, Texas State University, 2025. \$2,000 Quanta Services-supported award for AI- and IoT-based heat-stress prediction research.
+  \item \textbf{Four Hackathon Awards}, 2024--2025: RiverHacks SerpAPI awards for Beyond Blue and ResQMe; Organized AI Hackathon winner for MedGuide AI; HackaCat Nano Best in Development/Coding for RUMI.
+\end{itemize}
 
-\resumeSubHeadingListEnd
+%==================== SERVICE ====================
+\section{Research Service}
+\textbf{Peer Review:} IEEE Transactions on Intelligent Transportation Systems (1 manuscript); IJCNN 2026 (3 manuscripts) \\ \textbf{Membership:} ACM Professional Member
 
-%----------- HONORS & AWARDS -----------
-\section{Honors And Awards}
-\resumeSubHeadingListStart
-  \resumeSubheading{Hackathon Wins}{Austin/ San Marcos, TX}{Won 3+ hackathons since 2024, building projects like RUMI, ResQMe, MedGuide AI.}{2024 – Present}
-  \\
-  \resumeSubheading{Undergraduate Research Fellowship}{Texas State University}{\$2k Quanta Services grant for AI-based heat-stress prediction research.}{Mar 2025}
-\resumeSubHeadingListEnd
+%==================== SKILLS ====================
+\section{Technical Skills}
+\textbf{Languages:} Python, TypeScript, JavaScript, C/C++, SQL, R\\[1pt]
+\textbf{Machine Learning/NLP:} PyTorch, Hugging Face Transformers, scikit-learn, spaCy, NLTK, TF-IDF, NMF\\[1pt]
+\textbf{Research Methods:} Experiment design, benchmarking, cross-validation, statistical testing, calibration, class-imbalance evaluation\\[1pt]
+\textbf{Web/Data/Tools:} React, Next.js, Node.js, Express, Streamlit, Pandas, NumPy, PostgreSQL, Supabase, Turso, MongoDB, Docker, Git, GitHub Actions, Linux
 
 \end{document}
