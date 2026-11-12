@@ -74,23 +74,25 @@ President's List: Fall 2024, Spring 2025, Spring 2026 \textbar\ Dean's List: Fal
 \section{Selected Publications}
 \begin{itemize}
   \item \textbf{Chhetri, G.}, Dutta, A., and Das, S. ``CognitiveSky: Scalable Sentiment and Narrative Analysis for Decentralized Social Media.'' \textit{HICSS-59}, 2026. \href{https://doi.org/10.24251/HICSS.2026.364}{DOI: 10.24251/HICSS.2026.364}
-  \item \textbf{Chhetri, G.}, Das, S., and Chowdhury, T. I. ``SPARK: Search Personalization via Agent-Driven Retrieval and Knowledge-sharing.'' \textit{WSDM Companion}, 2026, pp. 84--92. \href{https://doi.org/10.48550/arXiv.2512.24008}{DOI: 10.48550/arXiv.2512.24008}
-  \item \textbf{Chhetri, G.}, Das, S., and Chowdhury, T. I. ``WISE: Web Information Satire and Fakeness Evaluation.'' \textit{WSDM Companion}, 2026, pp. 93--102. \href{https://doi.org/10.48550/arXiv.2512.24000}{DOI: 10.48550/arXiv.2512.24000}
+  \item \textbf{Chhetri, G.}, Chowdhury, T. I., Barua, S., and Das, S. ``Analyzing Public Sentiment and Safety Concerns in Online Discourse on Robotaxi Deployment.'' \textit{Transport Policy}, 2026, Article 104388. \href{https://doi.org/10.1016/j.tranpol.2026.104388}{DOI: 10.1016/j.tranpol.2026.104388}
+  \item \textbf{Chhetri, G.}, and Das, S. ``Can Small Language Models Be Trusted for Aviation Safety Analysis? A Benchmark Study Across Model Sizes Using Real-World Incident Narratives.'' \textit{Advanced Engineering Informatics}, 2027, vol. 77, Article 105391. \href{https://doi.org/10.1016/j.aei.2026.105391}{DOI: 10.1016/j.aei.2026.105391}
+  \item \textbf{Chhetri, G.}, Baitullah, A., and Das, S. ``Toward Auditable and Calibrated AI for Dementia-Related Crash Severity Prediction: A Selective Deferral Framework to Support Human Review.'' \textit{HICSS-60}, 2027 (accepted; preprint arXiv:2609.22694). \href{https://doi.org/10.48550/arXiv.2609.22694}{DOI: 10.48550/arXiv.2609.22694}
   \item \textbf{Chhetri, G.}, Anderson, D., Kutela, B., and Das, S. ``A Transformer-Based Cross-Platform Analysis of Public Discourse on the 15-Minute City Paradigm.'' \textit{ICMLA}, 2025, pp. 410--415. \href{https://doi.org/10.1109/ICMLA66185.2025.00062}{DOI: 10.1109/ICMLA66185.2025.00062}
 \end{itemize}
-\textbf{Research Impact:} 230+ Google Scholar citations; h-index 6; i10-index 6 as of \today.
+\textbf{Research Impact:} 325+ Google Scholar citations; h-index 7; i10-index 6 as of November 12, 2026.
 
 %==================== PROJECTS ====================
 \section{Selected Projects}
-\project{Adaptly}{TypeScript, React, Next.js, LLM APIs \textbar\ \href{https://github.com/gauravfs-14/adaptly}{github.com/gauravfs-14/adaptly}}
+\project{intelligiXL}{TypeScript, Next.js, Postgres, Docker \textbar\ \href{https://github.com/gauravfs-14/intelligiXL}{github.com/gauravfs-14/intelligiXL}}
 \begin{itemize}
-  \item Built an open-source AI-adaptive UI library that converts natural-language goals into live React interface changes using an LLM planner, component registry, persistent state, and OpenAI, Anthropic, and Gemini support.
+  \item Built a local AI annotation workbench where System One models label spreadsheet rows with per-answer probabilities and confidence, routing low-confidence rows to a human review queue with versioning and export.
 \end{itemize}
 
 \project{MedGuide AI}{Python, LangGraph, MCP, ChromaDB, Streamlit \textbar\ \href{https://github.com/gauravfs-14/medguide-ai}{github.com/gauravfs-14/medguide-ai}}
 \begin{itemize}
   \item Built a privacy-first agentic document analysis system using LangGraph orchestration, Model Context Protocol tools, retrieval-augmented generation, local embeddings, and Docker; won the Organized AI Hackathon in Austin.
 \end{itemize}
+
 
 \project{lit-mcp}{Python, MCP, arXiv, DBLP \textbar\ \href{https://github.com/gauravfs-14/lit-mcp}{github.com/gauravfs-14/lit-mcp}}
 \begin{itemize}
@@ -100,13 +102,13 @@ President's List: Fall 2024, Spring 2025, Spring 2026 \textbar\ Dean's List: Fal
 %==================== HONORS ====================
 \section{Honors and Awards}
 \begin{itemize}
-  \item \textbf{Undergraduate Research Fellowship}, Texas State University, 2025. \$2,000 Quanta Services-supported award for AI- and IoT-based heat-stress prediction research.
-  \item \textbf{Four Hackathon Awards}, 2024--2025: RiverHacks SerpAPI awards for Beyond Blue and ResQMe; Organized AI Hackathon winner for MedGuide AI; HackaCat Nano Best in Development/Coding for RUMI.
+  \item \textbf{HSI Battle of the Brains 2026 Award Winner} for Confiance, an agentic-AI brand-visibility tool. \textbf{Four hackathon awards, 2024--2025} (RiverHacks x2, Organized AI, HackaCat Nano).
+  \item \textbf{Texas State University Grants:} Undergraduate Research Fellowship, 2025 (\$2,000, Quanta Services); S.T.A.R. Grant, 2025 and 2026; First-Generation Academic Engagement Grant, 2026.
 \end{itemize}
 
 %==================== SERVICE ====================
 \section{Research Service}
-\textbf{Peer Review:} IEEE Transactions on Intelligent Transportation Systems (1 manuscript); IJCNN 2026 (3 manuscripts) \\ \textbf{Membership:} ACM Professional Member
+\textbf{Peer Review:} IEEE Transactions on Intelligent Transportation Systems (1 manuscript); IJCNN 2026 (3 manuscripts) \\ \textbf{Membership:} ACM Professional Member (2025--Present), IEEE Student Member (2026--Present)
 
 %==================== SKILLS ====================
 \section{Technical Skills}
